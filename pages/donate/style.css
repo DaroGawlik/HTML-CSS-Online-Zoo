@@ -1,0 +1,5 @@
+@import url('../main/style.css');
+@import './min1600px.css';
+@import './min1000px.css' screen and (min-width: 1000px) and (max-width: 1599px);
+@import './min640px.css' screen and (min-width: 640px) and (max-width: 999px);
+@import './min320px.css' screen and (min-width: 320px) and (max-width: 639px);

@@ -1,0 +1,29 @@
+@import './min1600px.css';
+@import './input_range.css';
+@import './min1000px.css' screen and (min-width: 1000px) and (max-width: 1599px);
+@import './min640px.css' screen and (min-width: 640px) and (max-width: 999px);
+@import './min320px.css' screen and (min-width: 320px) and (max-width: 639px);
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+html {
+	height: auto;
+	font-size: 62.5%;
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	color: #333b41;
+	font-size: 1.6rem;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	line-height: 140%;
+}
